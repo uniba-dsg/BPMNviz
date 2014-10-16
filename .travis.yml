@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - openjdk7
+  - oraclejdk7
+  - oraclejdk8
+
+before_install:
+  - chmod +x gradlew
+
+install:
+  - TERM=dumb ./gradlew assemble --info
+
+script:
+  - TERM=dumb ./gradlew check --info
