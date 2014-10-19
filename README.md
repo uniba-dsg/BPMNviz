@@ -1,6 +1,6 @@
 # BPMNviz [![Build Status](https://travis-ci.org/uniba-dsg/BPMNviz.png?branch=master)](https://travis-ci.org/uniba-dsg/BPMNviz)
 
-BPMNviz creates for each found `.bpmn` or `.bpmn2` file image siblings at `.bpmn.png` or `.bpmn2.png` via the Yaoqiang BPMN Editor automatically .
+BPMNviz creates for each found `.bpmn` or `.bpmn2` file image siblings at `.bpmn.png` or `.bpmn2.png` via the [Yaoqiang BPMN Editor](http://bpmn.sourceforge.net/) automatically .
 
 ## License
 
@@ -17,7 +17,7 @@ Requires JDK 8 with JAVA_HOME set to the JDK path!
 
 ## Usage
 
-    $ BPMNviz some/folder # for each .bpmn[2] file create a .bpmn[2].png file
+    $ BPMNviz some/folder # for each .bpmn or .bpmn2 file create a .bpmn.png or .bpmn2.png file
 
 ## Authors
 
